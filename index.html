@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Assignment</title>
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/bootstrap4.css">
+    <link rel="stylesheet" href="https://www.ucertify.com/layout/themes/bootstrap4/ux/css/main_sass/main.css">
+    <link rel="stylesheet" href="https://ucertify.com/layout/themes/bootstrap4/ux/css/uc_global.css">
+    <link rel="canonical" href="https://www.ucertify.com/utils/?util=icomoon">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar navbar-expand-sm m-l-lg m-r-lg list-unstyled pb-0 pl-1 border-bottom w-100">
+            <li class="nav-item active mr-2" aria-label="library">
+                <a tabindex="0" role="button" class="nav-link" href="#">
+                    <i class="icomoon-my-library-24px-1 mr-1" aria-pressed="false"></i>My Library
+                </a>
+            </li>
+            <li class="nav-item mr-2" aria-label="enroll">
+                <a tabindex="0" role="button" class="nav-link" href="#">
+                    <i class="icomoon-24px-save-as-4 mr-1" aria-pressed="false"></i>Enroll
+                </a>
+            </li>
+            <li class="nav-item mr-2" aria-label="inbox">
+                <a tabindex="0" role="button" class="nav-link" href="#">
+                    <i class="icomoon-envelop-3 mr-1" aria-pressed="false"></i>Inbox
+                </a>
+            </li>
+            <li class="nav-item mr-2" aria-label="my profile">
+                <a tabindex="0" role="button" class="nav-link" href="#">
+                    <i class="icomoon-my-profile-24px-1 mr-1" aria-pressed="false"></i>My Profile
+                </a>
+            </li>
+            <li class="nav-item mr-2  border-bottom border-primary" aria-label="admin">
+                <a tabindex="0" role="button" class="nav-link disabled border border-primary border-right-0 border-top-0 border-left-0" href="#" aria-pressed="false">
+                    <i class="icomoon-admin-24px-1 mr-1"></i>Admin
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section class="d-flex mr-4 m-l-lg" id="section_one">
+        <form role="select" class="input-group d-flex max_width_250 min_width_200 border border-rad r ml-3 mr-sm-2 flex-nowrap" id="selection">
+            <input class="form-control border-0" type="search" placeholder="uCertify" name="search" id="search" aria-label="select input">
+            <span role="button" tabindex="-1" class="input-group-text bg-light border-0 bg-white pr-2 font11" aria-label="close" name="close_btn" id="close_btn">&#10006;</span>
+            <button class="btn btn-outline-primary bg-light border-0 bg-white dropdown-toggle text-dark" name="dropdown_btn" tabindex="-1" id="dropdown_btn" aria-label="drop down"></button>
+        </form>
+        <section class="btn-group" role="group" aria-label="Basic button">
+            <button type="button" class="btn text-dark btn-outline-primary dt on_hover_blue bg-light" name="roster_btn" id="roster_btn" aria-label="roster">
+                <span class="d-inline-flex">
+                    <i class="mr-1 icomoon-roster-sm mt-sm-1 s3"></i>
+                    <span>Roster</span>
+                </span>
+            </button>
+            <button type="button" class="btn btn-outline-primary text-dark text-nowrap" name="manager_btn" id="manager_btn" aria-label="Manager">
+                <i class="mr-1 icomoon-project-management-44px s3"></i>Manager
+                <i class="icomoon-new-24px-arrow-down-2 ml-1 s1"></i>
+            </button>
+            <button type="button" class="btn btn-outline-primary text-dark" name="report_btn" id="report_btn" aria-label="report">
+                <span class="d-inline-flex">
+                    <i class="mr-1 icomoon-reports-sm s3 mt-1"></i>Report
+                    <i class="icomoon-new-24px-arrow-down-2 mt-2 ml-sm-2 s1"></i>
+                </span>
+            </button>
+            <button type="button" class="btn btn-outline-primary text-dark" name="enroll_btn" id="enroll_btn" aria-label="enroll">
+                <span class="d-inline-flex">
+                    <i class="mr-1 icomoon-add-license-enroll-sm s3 mt-1"></i>Enroll
+                </span>
+            </button>
+        </section>
+        <section class="ml-auto mr-4 text-nowrap">
+            <button type="button" class="btn btn-outline-primary ml-xl-5 py-2" id="lms" name="lms" aria-label="lms configuration">LMS Configuration</button>
+            <button type="button" class="btn btn-outline-primary text-center text-dark mx-auto" id="export_btn" name="export_btn" aria-label="export">
+                <span class="d-inline-flex">
+                    <i class="icomoon-folder-download-2 mr-2 s3"></i>Export
+                    <i class="icomoon-new-24px-arrow-down-2 mt-2 ml-sm-2 s1"></i>
+                </span>
+            </button>
+        </section>
+    </section>
+    <section class="d-flex justify-content-start mt-3 m-l-lg mr-xl-5">
+        <button type="button" class="btn w-10 text-dark bg-light mx-3 px-3" id="search_btn" name="search_btn" aria-label="search">
+            <i class="icomoon-new-24px-zoom-1 s3"></i>
+        </button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-outline-primary text-dark on_hover_blue bg-light px-2" id="Roster_btn" name="Roster_btn" aria-label="roster">
+                <span class="d-inline-flex">
+                    <i class="mr-1  icomoon-roster-sm mt-sm-1 s3"></i>
+                    <span>Roster</span>
+                </span>
+            </button>
+            <button type="button" class="btn btn-outline-primary text-dark px-2" id="lesson_btn" name="lesson_btn" aria-label="lessons">
+                <span class="d-inline-flex">
+                    <i class="icomoon-lesson-sm mr-2 mt-1 s3"></i>Lessons
+                </span>
+            </button>
+            <button type="button" class="btn btn-outline-primary text-dark px-2 text-nowrap" id="practice_btn" name="practice_btn" aria-label="practice">
+                <i class="icomoon-testprep-or-practice-test mr-1 s3"></i>Practice
+            </button>
+            <button type="button" class="btn btn-outline-primary text-dark px-2" id="engine_btn" name="engine_btn" aria-label="prepengine">
+                <div class="d-inline-flex h">
+                    <i class=" icomoon-cogs mr-1 mt-sm-1 s3 font-weight-bold"></i>
+                    <span class="pr-2">Prepengine</span>
+                    <i class="icomoon-new-24px-arrow-down-2 s1 pt-2"></i>
+                </div>
+            </button>
+            <button type="button" class="btn btn-outline-primary text-dark px-2" id="analytic_btn" aria-label="analytic_btn" name="analytic_btn">
+                <span class="d-inline-flex">
+                    <i class="icomoon-bars mr-sm-2 mt-sm-1 s3"></i>Analytics
+                    <i class="icomoon-new-24px-arrow-down-2 s1 pt-2 ml-2"></i>
+                </span>
+            </button>
+        </div>
+        <span aria-label="switch-toggle" class="custom-control custom-switch ml-xl-auto mt-2 text-nowrap">
+            <label>Test Mode Only</label>
+            <input type="checkbox" class="custom-control-input" id="switch_one" name="switch_one" tabindex="0"/>
+            <span class="custom-control-label ml-5" for="custom"></span>
+        </span>
+    </section>
+    <section class="mx-5 mt-4">
+        <table id="table_one">
+            <thead class="px-2">
+                <tr>
+                    <th scope="col" class="pr-4 pl-2">
+                        <section class="form-check form-switch pl-1 d-flex">
+                            <input class="form-check-input custom_checkbox_new" type="checkbox" tabindex="0" id="flexSwitchCheckDefault" name="flexSwitchCheckDefault" disabled="disabled"/>
+                            <label class="form-check-label" for="flexSwitchCheckDefault" id="label_third">
+                                <span class=" bg-white d-flex m-t-xxs border border-info p-sm pt-0 pb-sm-0 rounded" tabindex="0">
+                                <small>
+                                    <i class="icomoon-new-24px-arrow-down-2 font-weight-bold font9"></i>
+                                </small>
+                                </span>
+                            </label>
+                        </section>
+                    </th>
+                    <th scope="col">
+                        <article class="pr-5 d-flex flex-column pb-4">
+                            <p class="p-0 m-0" tabindex="0">Student Name</p>
+                            <div class="dropup">
+                                <small tabindex="0">Tag/Status</small>
+                                <span class="dropdown-toggle dropdown-toggle-split pl-1" tabindex="0"></span>
+                            </div>
+                        </article>
+                    </th>
+                    <th scope="col">
+                        <article class="pl-0 pr-0 d-flex flex-column pb-1 text-nowrap">
+                            <p class="p-0 m-0" tabindex="0">Course Name</p>
+                            <div class="dropup">
+                                <small tabindex="0">CRN/Course Status</small>
+                                <span class="dropdown-toggle dropdown-toggle-split pl-1" tabindex="0"></span>
+                            </div>
+                        </article>
+                    </th>
+                    <th scope="col" class="pr-3">
+                        <article class="pl-2 d-flex flex-column pb-3">
+                            <p class="p-0 m-0" tabindex="0">Instructor</p>
+                            <div class="dropup">
+                                <small tabindex="0">Section</small>
+                                <span class="dropdown-toggle dropdown-toggle-split pl-1" tabindex="0"></span>
+                            </div>
+                        </article>
+                    </th>
+                    <th scope="col" class="px-0">
+                        <article class="px-0 d-flex flex-column pb-4">
+                            <p class="p-0 m-0" tabindex="0">Readiness</p>
+                            <div class="dropup">
+                                <span class="dropdown-toggle dropdown-toggle-split" tabindex="0"></span>
+                            </div>
+                        </article>
+                    </th>
+                    <th scope="col">
+                        <article class="px-2 d-flex flex-column">
+                            <p class="p-0 m-0" tabindex="0">Start</p>
+                            <small class="label-wrap text-nowrap" tabindex="0">Time Passed</small>
+                            <div class="dropup">
+                                <span class="dropdown-toggle dropdown-toggle-split" tabindex="0"></span>
+                            </div>
+                        </article>
+                    </th>
+                    <th scope="col">
+                        <article class="px-2 d-flex flex-column">
+                            <p class="p-0 m-0" tabindex="0">Target</p>
+                            <small class="label-wrap text-nowrap" tabindex="0">Time Needed</small>
+                            <div class="dropup">
+                                <span class="dropdown-toggle dropdown-toggle-split" tabindex="0"></span>
+                            </div>
+                        </article>
+                    </th>
+                    <th scope="col">
+                        <article class="pl-2 d-flex flex-column pb-4">
+                            <p class="p-0 m-0" tabindex="0">Estimated</p>
+                            <small class="label-wrap d-inline-flex text-nowrap" tabindex="0">Time Required
+                                <i class="icomoon-new-24px-arrow-down-2 s1 mt-1 ml-2" tabindex="0"></i>
+                            </small>
+                        </article>
+                    </th>
+                    <th scope="col">
+                        <article class="px-2 d-flex flex-column">
+                            <p class="p-0 m-0" tabindex="0">Last Login</p>
+                            <small class="label-wrap text-nowrap" tabindex="0">Time Passed</small>
+                            <div class="dropup">
+                                <span class="dropdown-toggle dropdown-toggle-split" tabindex="0"></span>
+                            </div>
+                        </article>
+                    </th>
+                    <th scope="col">
+                        <article class="pl-1" tabindex="0">Actions</article>
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="px-2">
+                <tr class="border table-light py-2 opaque8 text-muted disabled">
+                    <td scope="col" tabindex="0" class="border-bottom pt-4">
+                        <article class="ml-1 mt-3 pl-0 form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input custom_checkbox_new" id="check_one" name="check_one" disabled="disabled">
+                            <label class="form-check-label ml-1" for="check_one">1</label>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-bottom">
+                        <article class="py-2 d-flex">
+                            <svg height="60" width="60">
+                                <defs>
+                                    <clipPath id="myCircle">
+                                        <circle cx="30" cy="30" r="20" fill="#FFFFFF"/>
+                                    </clipPath>
+                                </defs>
+                                <image width="60" height="60" xlink:href="id.jpg" clip-path="url(#myCircle)"/>
+                            </svg>
+                            <p class="text-truncate text-center w-50 pt-3 pl-1">Abhishek Kumar</p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-bottom">
+                        <article class="d-flex flex-column align-center justify-content-center pl-1">
+                            <p class="mt-1 mb-0">APP-Training</p>
+                            <p class="my-0">
+                                <small>app-training</small>
+                            </p>
+                            <p class="my-0">
+                                <i class="icomoon-24px-test text-success icomoon-lesson-sm"></i>
+                                <i class="icomoon-24px-test text-success icomoon-test-44px mr-1"></i>
+                            </p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-bottom">
+                        <article class="pl-2 pt-3 px-2 d-flex flex-column">Dhiroo Verma
+                            <span id="New" class="badge bg-primary w-25 text-light">new</span>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-bottom">
+                        <article class="pl-3 pt-3 d-flex flex-column">
+                            <svg height="23" width="23" viewBox="0 0 20 20">
+                                <circle r="10" cx="10" cy="10" fill="#e9ebe5" />
+                                <circle r="5" cx="10" cy="10" fill="transparent" stroke="green" stroke-width="10" stroke-dasharray="17.11 38.4" transform="rotate(-90) translate(-20)"/>
+                            </svg>
+                            <p class="text-success">58%</p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-bottom">
+                        <article class="d-flex flex-column pt-3 px-2 text-nowrap">24-APR-19
+                            <p>
+                                <small>2.1 years</small>
+                            </p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-bottom">
+                        <article class="d-flex flex-column pt-3 px-2 text-nowrap">25-JUN-19
+                            <p>
+                                <small>NA</small>
+                            </p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-bottom">
+                        <article class="d-flex flex-column pt-3 px-2 text-nowrap">12-JAN-23
+                            <p>
+                                <small>1.6 years</small>
+                            </p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-bottom text-danger">
+                        <article class="d-flex flex-column pt-3 px-2 text-nowrap">21-FEB-19
+                            <p class="text-dark">
+                                <small>2.3 years ago</small>
+                            </p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-bottom">
+                        <article class=" py-3 pl-1">
+                            <button type="button" class="btn text-nowrap btn-outline-primary d-inline" id="btn_one" name="btn_one" aria-label="setting button">
+                                <span class="d-inline-flex">
+                                    <i class="icomoon-24px-settings text-dark mr-1"></i>
+                                    <i class="icomoon-new-24px-arrow-down-2 font9 text-dark pt-1 pl-1"></i>
+                                </span>
+                            </button>
+                        </article>
+                    </td>
+                </tr>
+                <tr class="border table-light py-5 border-0 disabled">
+                    <td scope="col" tabindex="0" class="border border-0 pt-4">
+                        <article class="ml-1 mt-3 pl-0 form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input custom_checkbox_new" id="check_label" name="check_label"/>
+                            <span class="form-check-label ml-1" for="check_label">2</span>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0">
+                        <article class="py-2 d-flex pl-2 ">
+                            <svg height="40" width="40" viewBox="0 0 20 20">
+                                <circle r="10" cx="10" cy="10" fill="#04AA6D"/>
+                                <text x="4" y="14" class="font9" fill="white">AP</text>
+                            </svg>
+                            <p class="text-truncate text-center pt-2 pl-2 w-50">Abhishek Pandey</p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0">
+                        <article class="d-flex flex-column align-center justify-content-center pl-1">
+                            <p class="mt-1 mb-0">APP-Training</p>
+                            <p class="my-0">
+                                <small>app-training</small>
+                            </p>
+                            <p class="my-0">
+                                <i class="icomoon-24px-test text-success icomoon-lesson-sm"></i>
+                                <i class="icomoon-24px-test text-success icomoon-test-44px mr-1"></i>
+                            </p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0">
+                        <article class="pl-2 pt-3 pr-0 d-flex flex-column">Swati Kesarwani
+                            <span id="New" class="badge bg-primary w-75 pr-5 text-left text-light">merged Shambhunath Ap</span>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-0">
+                        <article class="pl-3 pt-3 d-flex flex-column">
+                            <svg height="23" width="23" viewBox="0 0 20 20">
+                                <circle r="10" cx="10" cy="10" fill="#e9ebe5" />
+                                <circle r="5" cx="10" cy="10" fill="transparent" stroke="green" stroke-width="10"
+                                    stroke-dasharray="18.99 38.4" transform="rotate(-90) translate(-20)"/>
+                            </svg>
+                            <p class="text-success">64%</p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-0">
+                        <article class="d-flex flex-column pt-3 px-2 text-nowrap">18-FEB-17
+                            <p>
+                                <small>4.3 years</small>
+                            </p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class=" border-0">
+                        <article class="d-flex flex-column pt-3 px-2 text-nowrap">18-JUN-17
+                            <p>
+                                <small>NA</small>
+                            </p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class="border-0">
+                        <article class="d-flex flex-column pt-3 px-2 text-nowrap">03-DEC-23
+                            <p>
+                                <small>2.5 years</small>
+                            </p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0" class=" border-0 text-danger">
+                        <article class="d-flex flex-column pt-3 px-2 text-nowrap">14-MAY-17
+                            <p class="text-dark">
+                                <small>4.1 years ago</small>
+                            </p>
+                        </article>
+                    </td>
+                    <td scope="col" tabindex="0">
+                        <article class="py-3 pl-1">
+                            <button type="button" class="btn text-nowrap btn-outline-primary d-inline" name="action" id="action" aria-label="setting button">
+                                <span class="d-inline-flex">
+                                    <i class="icomoon-24px-settings text-dark mr-1"></i>
+                                    <i class="icomoon-new-24px-arrow-down-2 font9 text-dark pt-1 pl-1"></i>
+                                </span>
+                            </button>
+                        </article>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
